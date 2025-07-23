@@ -11,31 +11,43 @@
             border-collapse: collapse;
             caption-side: bottom;
         }
+
         caption {
             text-align: right;
         }
-        td, th {
+
+        td,
+        th {
             border: 1px solid black;
             padding: 10px;
         }
+
         th {
             text-align: center;
         }
+
         td {
             text-align: right;
         }
+
         .col-2022 {
             background-color: #e5f6f6;
+        }
+
+        .subject {
+            border: 3px solid black;
+            display: inline-block;
         }
     </style>
 </head>
 
 <body>
+    <h1 class="subject">연습문제1</h1>
     <table>
         <caption>출처: 통계청 100대 지표</caption>
         <colgroup>
-        <col span="4">
-        <col class="col-2022">
+            <col span="4">
+            <col class="col-2022">
         </colgroup>
 
         <thead>
@@ -65,6 +77,9 @@
         </tbody>
 
     </table>
+    <hr>
+    <h1 class="subject">연습문제2</h1>
+    <iframe src="./index0722(2).html" width="100%" height="1000" frameborder="0"></iframe>
 </body>
 
 </html>
